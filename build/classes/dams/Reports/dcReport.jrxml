@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="1170" pageHeight="842" columnWidth="1170" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="f9ed58b9-54f0-4fea-ac16-2e06e3aac968">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from dcinfo]]>
+	</queryString>
+	<field name="dSrNo" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dType" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dGenre" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dTrainer" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dwDays" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dTime" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dbCapacity" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Beginner" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Intermediate" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Advance" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Masters" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fBeginner" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fIntermediate" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fAdvance" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fMasters" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Exam" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fExam" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="48" splitType="Stretch">
+			<staticText>
+				<reportElement x="399" y="14" width="193" height="20" uuid="2288e717-ca0a-458e-83af-ddc0030a60b4"/>
+				<textElement>
+					<font fontName="Copperplate Gothic Bold" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dance Course Details]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="47" width="1170" height="1" uuid="bff02d1d-43e0-4fd7-b697-a0305c6a2879"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<staticText>
+				<reportElement x="7" y="7" width="37" height="20" uuid="7592d7a3-9311-4c4e-9aeb-8539240e41a8"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SrNo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="52" y="7" width="86" height="20" uuid="42e95078-6035-4b3b-ad3b-6bcd732386e8"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dance Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="146" y="7" width="74" height="20" uuid="5a41e543-ee41-4cda-b4a4-21fa68f3390c"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Genre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="229" y="7" width="100" height="20" uuid="8a61d2ca-c6bc-4f5c-bc0e-3520d5f13d79"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Trainer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="338" y="7" width="116" height="20" uuid="407c99fc-00c2-4665-aff9-6beb18e0ac76"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[On Days]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="461" y="7" width="100" height="20" uuid="f6dd0cad-97c4-422d-a9f4-6236a627874d"/>
+				<text><![CDATA[Batch Time]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="569" y="7" width="76" height="20" uuid="2713685c-dfae-4662-a935-4e3faa8ce4bf"/>
+				<text><![CDATA[Batch Capacity]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="653" y="7" width="62" height="20" uuid="b4a77a0a-882d-47f5-8fb0-4669475a9dcc"/>
+				<text><![CDATA[Beginner]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="716" y="7" width="34" height="20" uuid="b0fe0a5d-74f4-4900-b5e9-1bc63b9e92a2"/>
+				<text><![CDATA[Fee]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="822" y="7" width="36" height="20" uuid="a4ba077e-92b1-4c82-b933-c22fa18a070f"/>
+				<text><![CDATA[Fee]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="758" y="7" width="62" height="20" uuid="d5e60d91-3b5f-4511-8006-0c25a54c9787"/>
+				<text><![CDATA[Intermediate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="866" y="7" width="54" height="20" uuid="1a7a67a3-b526-4b00-aada-c1d411bb4b34"/>
+				<text><![CDATA[Advance]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="922" y="7" width="36" height="20" uuid="ec2acc3d-c261-468d-b7d8-7168d447fd63"/>
+				<text><![CDATA[fee]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="967" y="7" width="48" height="20" uuid="e924e852-c6f2-4376-b89e-a3040c9dbed3"/>
+				<text><![CDATA[Masters]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1017" y="7" width="39" height="20" uuid="2cafcb10-717b-46c7-97cd-6a25ec12d0c6"/>
+				<text><![CDATA[fee]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1065" y="7" width="49" height="20" uuid="dbe6346d-cc79-4a27-bc86-6779e616d051"/>
+				<text><![CDATA[Exam]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1115" y="7" width="35" height="20" uuid="c7b38904-85b3-487a-b228-9551cbc7b0a3"/>
+				<text><![CDATA[Fee]]></text>
+			</staticText>
+			<line>
+				<reportElement x="48" y="0" width="1" height="36" uuid="937e33b4-24dd-4e91-9f69-31c481cdeaaa"/>
+			</line>
+			<line>
+				<reportElement x="140" y="0" width="1" height="36" uuid="5b1df139-d126-42ff-93a2-157fe0bad2f0"/>
+			</line>
+			<line>
+				<reportElement x="223" y="0" width="1" height="36" uuid="b65a001f-2713-4789-beb7-cbc813ea7d78"/>
+			</line>
+			<line>
+				<reportElement x="332" y="0" width="1" height="36" uuid="16bf9325-6f5e-4d86-84de-b655884f03f2"/>
+			</line>
+			<line>
+				<reportElement x="456" y="0" width="1" height="36" uuid="cfb54a0a-7b79-4689-911a-32c916a6c063"/>
+			</line>
+			<line>
+				<reportElement x="563" y="0" width="1" height="36" uuid="4b5049b8-90e1-4da7-8be7-2622eecb1c56"/>
+			</line>
+			<line>
+				<reportElement x="648" y="0" width="1" height="36" uuid="68810d25-fe38-472e-b828-2ff6607aa1e6"/>
+			</line>
+			<line>
+				<reportElement x="753" y="0" width="1" height="36" uuid="4ee62e31-89c7-4197-8766-a05e2c8944e1"/>
+			</line>
+			<line>
+				<reportElement x="861" y="0" width="1" height="36" uuid="f13e7c48-cd22-41a4-bc11-39b2a5f36099"/>
+			</line>
+			<line>
+				<reportElement x="961" y="0" width="1" height="36" uuid="a3a32b2e-beaf-4fec-980c-d3eb04d1cc1b"/>
+			</line>
+			<line>
+				<reportElement x="1060" y="0" width="1" height="36" uuid="1c97fce3-d911-4b61-9d6f-c81e2bed20e4"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="32" splitType="Stretch">
+			<textField>
+				<reportElement x="7" y="8" width="37" height="20" uuid="991a2219-7540-46ad-9dd6-0484d57778ac"/>
+				<textFieldExpression><![CDATA[$F{dSrNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="52" y="9" width="86" height="20" uuid="69043d22-90f7-42b4-8844-382adb08ed70"/>
+				<textFieldExpression><![CDATA[$F{dType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="146" y="10" width="74" height="20" uuid="744e0338-f08b-4e94-9ef9-7082c98da8fb"/>
+				<textFieldExpression><![CDATA[$F{dGenre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="229" y="10" width="100" height="20" uuid="e257f741-813b-4c1b-b455-1846dd622786"/>
+				<textFieldExpression><![CDATA[$F{dTrainer}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="10" width="116" height="20" uuid="6e402728-26a4-4b40-8240-af09ce7d4b93"/>
+				<textFieldExpression><![CDATA[$F{dwDays}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="461" y="10" width="100" height="20" uuid="cabe0065-9aaf-46b0-867c-cfd3aa09e64e"/>
+				<textFieldExpression><![CDATA[$F{dTime}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="569" y="10" width="76" height="20" uuid="8c068dcb-afba-48f2-b788-7bd9324e0102"/>
+				<textFieldExpression><![CDATA[$F{dbCapacity}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="653" y="8" width="62" height="20" uuid="d2c86c45-9afd-4821-8a03-cbc1266497aa"/>
+				<textFieldExpression><![CDATA[$F{Beginner}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="759" y="9" width="62" height="20" uuid="a70ca0c7-92ce-4168-8104-71c3258f41e6"/>
+				<textFieldExpression><![CDATA[$F{Intermediate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="866" y="10" width="54" height="20" uuid="5af05be7-b238-4c57-b1fb-876e62fd0cf6"/>
+				<textFieldExpression><![CDATA[$F{Advance}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="967" y="10" width="48" height="20" uuid="a340a3f9-cfc8-4081-968c-904c734eac02"/>
+				<textFieldExpression><![CDATA[$F{Masters}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="716" y="8" width="34" height="20" uuid="7ba25d07-e2f8-4a1b-b568-5d7dda3fd0d5"/>
+				<textFieldExpression><![CDATA[$F{fBeginner}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="823" y="9" width="36" height="20" uuid="c7960085-de1f-42d3-a97e-ac5bd3caf1c9"/>
+				<textFieldExpression><![CDATA[$F{fIntermediate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="921" y="10" width="37" height="20" uuid="f7d68f15-3d2e-4235-b399-87d523a6ae07"/>
+				<textFieldExpression><![CDATA[$F{fAdvance}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1016" y="10" width="40" height="20" uuid="0984acc0-08e9-4b20-8d40-1d5da8dcaecb"/>
+				<textFieldExpression><![CDATA[$F{fMasters}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1065" y="10" width="49" height="20" uuid="e7fd30ce-cf91-41ae-948d-8433cf1762ce"/>
+				<textFieldExpression><![CDATA[$F{Exam}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1116" y="10" width="34" height="20" uuid="569eb779-4cd9-4c11-b485-89c21ea2cb42"/>
+				<textFieldExpression><![CDATA[$F{fExam}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="332" y="0" width="1" height="30" uuid="a8e67e30-50e2-4b4f-8cea-7a92964f2457"/>
+			</line>
+			<line>
+				<reportElement x="456" y="-1" width="1" height="30" uuid="21714eac-4249-4603-b041-dffd84f457ca"/>
+			</line>
+			<line>
+				<reportElement x="563" y="0" width="1" height="30" uuid="c2d5b57e-1cdc-42bc-9458-8fe73fa0c269"/>
+			</line>
+			<line>
+				<reportElement x="648" y="0" width="1" height="30" uuid="4015acc2-ef73-407c-997b-1bbf367706c5"/>
+			</line>
+			<line>
+				<reportElement x="48" y="-1" width="1" height="30" uuid="9307ddfa-83be-4dc5-961a-3ad063b501ae"/>
+			</line>
+			<line>
+				<reportElement x="140" y="0" width="1" height="30" uuid="fb5d0b40-681a-4e4c-aa0c-b64b646f90dc"/>
+			</line>
+			<line>
+				<reportElement x="223" y="0" width="1" height="30" uuid="3998e8d2-eb07-4b61-87d9-1d48506ccd6b"/>
+			</line>
+			<line>
+				<reportElement x="753" y="0" width="1" height="30" uuid="82b5d9af-cc37-4ba0-8552-64eb9ad60ee1"/>
+			</line>
+			<line>
+				<reportElement x="861" y="1" width="1" height="30" uuid="16a9e2fd-a09c-4f08-9770-45c261a4128b"/>
+			</line>
+			<line>
+				<reportElement x="961" y="1" width="1" height="30" uuid="14b9ee75-6f7d-4557-b291-02b74b2b3709"/>
+			</line>
+			<line>
+				<reportElement x="1060" y="1" width="1" height="30" uuid="79678963-5008-4ba8-823f-f0dc490cdd9a"/>
+			</line>
+			<line>
+				<reportElement x="0" y="31" width="1170" height="1" uuid="cde79a99-1e15-412c-b586-01d6a3172b00"/>
+			</line>
+			<line>
+				<reportElement x="0" y="1" width="1170" height="1" uuid="dbcd23c5-368e-4082-9435-9e339a1adb30"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
